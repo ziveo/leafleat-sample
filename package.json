@@ -1,0 +1,15 @@
+{
+  "name": "leaflet-igu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server . --files 'index.html, src/**/*.css, src/**/*.js' --logLevel info --port 8000"
+  },
+  "keywords": [],
+  "author": "Bojan Zivkovic",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.6"
+  }
+}
